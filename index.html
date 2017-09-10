@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tree pallete</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html,body,#diagram{
+			width: 100%;
+			height: 100%;
+		}
+		#diagram{
+			border: 1px solid;
+			margin: 5px;
+		}
+		#pallete,#treediagram{
+			float: left;
+			height: 100%;
+		}
+		#pallete{
+			width: 20%;
+		}
+		#treediagram{
+			width: 75%;
+		}
+		#pallete{
+			border-right: 1px solid;
+		}
+	</style>
+</head>
+<body>
+<button id="save">保存</button>
+<button id="update">更新</button>
+<div id="diagram">
+	<div id="pallete">pallete</div>
+	<div id="treediagram">treediagram</div>
+</div>
+<script type="text/javascript" src="./go.js"></script>
+<script type="text/javascript" src="./jquery-2.2.2.js"></script>
+<script type="text/javascript" src="./topo.js"></script>
+<script type="text/javascript" src="./data.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
